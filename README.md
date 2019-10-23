@@ -1,6 +1,11 @@
 # Flatery
 Flatery is icon theme for linux in flat style licensed under the CC BY-NC-SA 3.0 
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cbrnix/Flatery/master/cover.png" alt="preview"/>
+</p>
+
+
 ## Installation:
 Just extract Flattery to ~/.icons or ~/.local/share/icons or /usr/share/icons
 
