@@ -1,7 +1,4 @@
 # Flatery
-<p align="center">
-  <img src="https://raw.githubusercontent.com/cbrnix/Newaita/master/cover.png" alt="preview"/>
-</p>
 Flatery is icon theme for linux in flat style licensed under the CC BY-NC-SA 3.0 
 
 ## Installation:
