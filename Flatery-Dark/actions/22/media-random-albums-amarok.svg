@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" viewBox="0 0 22 22" version="1.1">
+<g id="surface1">
+     <defs>
+  <style id="current-color-scheme" type="text/css">
+     .ColorScheme-Text { color:#eeeeee; } .ColorScheme-Highlight { color:#424242; }
+  </style>
+ </defs>
+<path style="fill:currentColor" class="ColorScheme-Text" d="M 4 4 L 4 18 L 10 18 L 10 16 L 6 16 L 6 6 L 16 6 L 16 11 L 18 11 L 18 4 Z M 16 11 C 16 8.230469 13.769531 6 11 6 C 8.230469 6 6 8.230469 6 11 C 6 13.425781 7.710938 15.441406 10 15.902344 L 10 13.828125 C 8.832031 13.417969 8 12.308594 8 11 C 8 9.339844 9.339844 8 11 8 C 12.660156 8 14 9.339844 14 11 Z M 12 12 L 12 16 L 15 14 Z M 12 12 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(25.882354%,64.705884%,96.078432%);fill-opacity:1;" d="M 18 18 L 15 16 L 18 14 Z M 18 18 "/>
+</g>
+</svg>
