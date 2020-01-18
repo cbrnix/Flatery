@@ -3,7 +3,7 @@
 <g id="surface1">
      <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#424242; } .ColorScheme-Highlight { color:#eeeeee; }
+   .ColorScheme-Text { color:#eeeeee; } .ColorScheme-Highlight { color:#424242; }
   </style>
  </defs>
 <path style="fill:currentColor" class="ColorScheme-Text" d="M 6 1 L 6 7 L 3 7 L 8 13 L 13 7 L 10 7 L 10 1 Z M 8 13 L 3 13 L 3 11 L 1 11 L 1 15 L 15 15 L 15 11 L 13 11 L 13 13 Z M 8 13 "/>
