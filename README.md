@@ -7,7 +7,10 @@ Flatery is icon theme for linux in flat style licensed under the CC BY-NC-SA 3.0
 
 
 ## Installation:
-Just extract Flattery to ~/.icons or ~/.local/share/icons or /usr/share/icons
+After downloading/extracting, move the `Flatery` and `Flatery-Dark` folders to `/usr/share/icons` if you want them to be visible for all users.
+If you want them to be visible only to your user, move them to `~/.icons` (GTK-based distros) or `~/.local/share/icons` (KDE-based distros).
+
+Similarily move the `Flatery-wallpapers` folder to `/usr/share/wallpapers` or `~/.local/share/wallpapers`.
 
  
 ## Support
