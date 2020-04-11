@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" viewBox="0 0 22 22" version="1.1">
 <g id="surface1">
-     <defs>
+<defs>
   <style id="current-color-scheme" type="text/css">
    .ColorScheme-Text { color:#eeeeee; } .ColorScheme-Highlight { color:#424242; }
   </style>
  </defs>
-<path style="fill:currentColor" class="ColorScheme-Text" d="M 9 4 L 8 6 L 16 6 L 16 8 L 18 8 L 18 4 Z M 8 6 L 4 6 L 4 18 L 8 18 L 8 16 L 6 16 L 6 10 L 10 10 L 10 8 L 9 8 Z M 14 9 L 11 11 L 14 13 L 14 12 C 15.109375 12 16 12.890625 16 14 C 16 15.109375 15.109375 16 14 16 C 12.890625 16 12 15.109375 12 14 L 10 14 C 10 16.214844 11.785156 18 14 18 C 16.214844 18 18 16.214844 18 14 C 18 11.785156 16.214844 10 14 10 Z M 14 9 "/>
+<path style="fill:currentColor" class="ColorScheme-Text" d="M 9 4 L 8 6 L 16 6 L 16 9 L 18 9 L 18 4 Z M 8 6 L 4 6 L 4 18 L 9 18 L 9 16 L 6 16 L 6 10 L 10 10 L 12 8 L 9 8 Z M 14 10 C 11.785156 10 10 11.785156 10 14 C 10 16.214844 11.785156 18 14 18 C 16.214844 18 18 16.214844 18 14 C 18 11.785156 16.214844 10 14 10 Z M 14 12 C 15.109375 12 16 12.890625 16 14 C 16 15.109375 15.109375 16 14 16 C 12.890625 16 12 15.109375 12 14 C 12 12.890625 12.890625 12 14 12 Z M 13.292969 12.878906 L 12.585938 13.585938 L 14 15 L 15.414062 13.585938 L 14.707031 12.878906 L 14 13.585938 Z M 13.292969 12.878906 "/>
 </g>
 </svg>

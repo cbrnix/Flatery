@@ -1,1 +1,11 @@
-kt-set-max-upload-speed.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+<g id="surface1">
+<defs>
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text { color:#424242; } .ColorScheme-Highlight { color:#eeeeee; }
+  </style>
+ </defs>
+<path style="fill:currentColor" class="ColorScheme-Text" d="M 5 5 L 5 9 L 7 9 L 7 7 L 17 7 L 17 9 L 19 9 L 19 5 Z M 12 7 L 8 11 L 11 11 L 11 19 L 13 19 L 13 11 L 16 11 Z M 12 7 "/>
+</g>
+</svg>

@@ -3,10 +3,10 @@
 <g id="surface1">
 <defs>
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#3f3f3f; } .ColorScheme-Highlight { color:#eeeeee; }
+   .ColorScheme-Text { color:#424242; } .ColorScheme-Highlight { color:#eeeeee; }
   </style>
  </defs>
-<path style="fill:currentColor;fill-opacity:0.392157" class="ColorScheme-Text" d="M 7 8.601562 L 9 8.601562 L 11.601562 6.398438 L 14.398438 7.800781 L 17.601562 5.398438 L 17.800781 5.601562 L 17.800781 16 C 15.316406 16 17.132812 16 16.800781 16 L 6.199219 16 L 6.199219 8.601562 Z M 7 8.601562 "/>
+<path style="fill:currentColor;fill-opacity:0.5" class="ColorScheme-Text" d="M 7 8.601562 L 9 8.601562 L 11.601562 6.398438 L 14.398438 7.800781 L 17.601562 5.398438 L 17.800781 5.601562 L 17.800781 16 C 15.316406 16 17.132812 16 16.800781 16 L 6.199219 16 L 6.199219 8.601562 Z M 7 8.601562 "/>
 <defs>
   <style id="current-color-scheme" type="text/css">
    .ColorScheme-Text { color:#424242; } .ColorScheme-Highlight { color:#eeeeee; }

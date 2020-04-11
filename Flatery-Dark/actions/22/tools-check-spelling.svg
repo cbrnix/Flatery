@@ -13,16 +13,16 @@
   <rect x="0" y="0" width="22" height="22"/>
 </clipPath>
 <g id="surface5" clip-path="url(#clip1)">
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(40.000001%,73.333335%,41.568628%);fill-opacity:1;" d="M 4 17 L 18 17 L 18 18 L 4 18 Z M 4 17 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(40.000001%,73.333335%,41.568628%);fill-opacity:1;" d="M 4 16 L 18 16 L 18 18 L 4 18 Z M 4 16 "/>
 </g>
 </defs>
 <g id="surface1">
+<use xlink:href="#surface5" mask="url(#mask0)"/>
 <defs>
   <style id="current-color-scheme" type="text/css">
    .ColorScheme-Text { color:#eeeeee; } .ColorScheme-Highlight { color:#424242; }
   </style>
  </defs>
-<path style="fill:currentColor" class="ColorScheme-Text" d="M 11 4 C 8.230469 4 6 6.082031 6 8.667969 L 6 16 L 8 16 L 8 12 L 14 12 L 14 16 L 16 16 L 16 8.667969 C 16 6.082031 13.769531 4 11 4 Z M 11 6 C 12.660156 6 14 7.488281 14 9.332031 L 14 10 L 8 10 L 8 9.332031 C 8 7.488281 9.339844 6 11 6 Z M 11 6 "/>
-<use xlink:href="#surface5" transform="matrix(1,0,0,1,0,0)" mask="url(#mask0)"/>
+<path style="fill:currentColor" class="ColorScheme-Text" d="M 9 4 C 7.890625 4 7 4.890625 7 6 L 7 15 L 9 15 L 9 12 L 13 12 L 13 15 L 15 15 L 15 6 C 15 4.890625 14.109375 4 13 4 Z M 10 6 L 12 6 C 12.554688 6 13 6.445312 13 7 L 13 10 L 9 10 L 9 7 C 9 6.445312 9.445312 6 10 6 Z M 10 6 "/>
 </g>
 </svg>
