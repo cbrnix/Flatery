@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
+<g id="surface1">
+<defs>
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text { color:#eeeeee; } .ColorScheme-Highlight { color:#424242; }
+  </style>
+ </defs>
+<path style="fill:currentColor" class="ColorScheme-Text" d="M 8 1 C 5.785156 1 4 2.785156 4 5 C 4 5.015625 4.003906 5.035156 4.007812 5.050781 C 3.84375 5.019531 3.671875 5 3.5 5 C 2.113281 5 1 6.113281 1 7.5 C 1 8.878906 2.105469 9.988281 3.480469 10 L 4.191406 10 C 4.40625 9.675781 4.660156 9.339844 5 9 C 5.339844 9.339844 5.59375 9.675781 5.808594 10 L 10.191406 10 C 10.40625 9.675781 10.660156 9.339844 11 9 C 11.328125 9.328125 11.578125 9.65625 11.789062 9.96875 C 13.589844 9.820312 15 8.339844 15 6.5 C 15 4.5625 13.4375 3 11.5 3 C 11.484375 3 11.46875 3.003906 11.453125 3.003906 C 10.761719 1.808594 9.484375 1 8 1 Z M 8 1 "/>
+<defs>
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text { color:#eeeeee; } .ColorScheme-Highlight { color:#424242; }
+  </style>
+ </defs>
+<path style="fill:currentColor" class="ColorScheme-Text" d="M 7 14 C 7 14.554688 7.445312 15 8 15 C 8.554688 15 9 14.554688 9 14 C 9 14 9 13 8 12 C 7 13 7 14 7 14 Z M 7 14 "/>
+<defs>
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text { color:#eeeeee; } .ColorScheme-Highlight { color:#424242; }
+  </style>
+ </defs>
+<path style="fill:currentColor" class="ColorScheme-Text" d="M 4 12 C 4 12.554688 4.445312 13 5 13 C 5.554688 13 6 12.554688 6 12 C 6 12 6 11 5 10 C 4 11 4 12 4 12 Z M 4 12 "/>
+<defs>
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text { color:#eeeeee; } .ColorScheme-Highlight { color:#424242; }
+  </style>
+ </defs>
+<path style="fill:currentColor" class="ColorScheme-Text" d="M 10 12 C 10 12.554688 10.445312 13 11 13 C 11.554688 13 12 12.554688 12 12 C 12 12 12 11 11 10 C 10 11 10 12 10 12 Z M 10 12 "/>
+</g>
+</svg>
