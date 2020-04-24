@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
-<g id="surface1">
-<defs>
-  <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#eeeeee; } .ColorScheme-Highlight { color:#424242; }
-  </style>
- </defs>
-<path style="fill:currentColor" class="ColorScheme-Text" d="M 8.003906 1 L 7.132812 2.683594 L 6.394531 4.121094 L 3.050781 3.050781 L 4.121094 6.394531 L 1 7.996094 L 4.121094 9.605469 L 3.050781 12.945312 L 6.394531 11.878906 L 8.003906 15 L 9.605469 11.878906 L 12.949219 12.945312 L 11.878906 9.605469 L 15 7.996094 L 11.878906 6.394531 L 12.949219 3.050781 L 9.605469 4.121094 Z M 8.003906 5.257812 L 8.628906 6.480469 L 9.945312 6.054688 L 9.519531 7.371094 L 10.742188 7.996094 L 9.519531 8.628906 L 9.9375 9.9375 L 8.628906 9.519531 L 8.003906 10.742188 L 7.371094 9.519531 L 6.0625 9.9375 L 6.480469 8.628906 L 5.257812 7.996094 L 6.480469 7.371094 L 6.0625 6.0625 L 7.371094 6.480469 Z M 8.003906 5.257812 "/>
-</g>
-</svg>
+rating.svg
