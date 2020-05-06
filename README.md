@@ -16,7 +16,7 @@ Similarily move the `Flatery-wallpapers` folder to `/usr/share/wallpapers` or `~
 ## Support
 If you want support me - 
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5BXKLL6AVFQ2W)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/cbrnix)
 
 [![Yandex](https://i.imgur.com/tpgGWVH.png)](https://money.yandex.ru/to/41001796418567)
 
