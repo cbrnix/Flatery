@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 <g id="surface1">
 <defs>
@@ -6,6 +6,12 @@
    .ColorScheme-Text { color:#eeeeee; } .ColorScheme-Highlight { color:#424242; }
   </style>
  </defs>
-<path style="fill:currentColor" class="ColorScheme-Text" d="M 5 5 L 5 19 L 10 19 L 10 16 L 9 16 L 9 14 L 7 14 L 7 8 L 8 8 L 8 9 L 9 9 L 9 8 L 10 8 L 10 9 L 11 9 L 11 8 L 13 8 L 13 9 L 14 9 L 14 8 L 15 8 L 15 9 L 16 9 L 16 8 L 17 8 L 17 14 L 15 14 L 15 16 L 19 16 L 19 5 Z M 12 17 C 11.445312 17 11 17.445312 11 18 C 11 18.554688 11.445312 19 12 19 C 12.554688 19 13 18.554688 13 18 C 13 17.445312 12.554688 17 12 17 Z M 15 17 C 14.445312 17 14 17.445312 14 18 C 14 18.554688 14.445312 19 15 19 C 15.554688 19 16 18.554688 16 18 C 16 17.445312 15.554688 17 15 17 Z M 18 17 C 17.445312 17 17 17.445312 17 18 C 17 18.554688 17.445312 19 18 19 C 18.554688 19 19 18.554688 19 18 C 19 17.445312 18.554688 17 18 17 Z M 18 17 "/>
+<path style="fill:currentColor" class="ColorScheme-Text" d="M 5 9 L 5 17 L 8 17 L 8 18 L 6 18 L 6 19 L 14 19 L 14 18 L 12 18 L 12 17 L 15 17 L 15 9 Z M 7 11 L 13 11 L 13 15 L 7 15 Z M 8 12 L 8 13 L 9 13 L 9 12 Z M 8 12 "/>
+<defs>
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text { color:#eeeeee; } .ColorScheme-Highlight { color:#424242; }
+  </style>
+ </defs>
+<path style="fill:currentColor;fill-opacity:0.5" class="ColorScheme-Text" d="M 17 5 C 16.445312 5 16 5.445312 16 6 C 16 6.554688 16.445312 7 17 7 C 17.554688 7 18 6.554688 18 6 C 18 5.445312 17.554688 5 17 5 Z M 17 8 C 16.445312 8 16 8.445312 16 9 C 16 9.554688 16.445312 10 17 10 C 17.554688 10 18 9.554688 18 9 C 18 8.445312 17.554688 8 17 8 Z M 17 11 C 16.445312 11 16 11.445312 16 12 C 16 12.554688 16.445312 13 17 13 C 17.554688 13 18 12.554688 18 12 C 18 11.445312 17.554688 11 17 11 Z M 17 11 "/>
 </g>
 </svg>

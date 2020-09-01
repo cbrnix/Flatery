@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 <g id="surface1">
 <defs>
@@ -6,6 +6,6 @@
    .ColorScheme-Text { color:#424242; } .ColorScheme-Highlight { color:#eeeeee; }
   </style>
  </defs>
-<path style="fill:currentColor" class="ColorScheme-Text" d="M 12 19 C 8.675781 19 6 16.769531 6 14 L 6 7.324219 L 12 5 L 18 7.324219 L 18 14 C 18 16.769531 15.324219 19 12 19 Z M 12 17 C 14.214844 17 16 15.660156 16 14 L 16 8.675781 L 12 7.152344 L 8 8.679688 L 8 14 C 8 15.664062 9.785156 17 12 17 Z M 12 17 "/>
+<path style="fill:currentColor" class="ColorScheme-Text" d="M 12 5 L 6 7.324219 L 6 14.003906 C 6 16.773438 8.675781 19.003906 12 19.003906 C 15.324219 19.003906 18 16.773438 18 14.003906 L 18 7.324219 Z M 12 7.152344 L 16 8.679688 L 16 14.003906 C 16 15.664062 14.214844 17.003906 12 17.003906 C 9.785156 17.003906 8 15.664062 8 14.003906 L 8 8.679688 Z M 12 7.152344 "/>
 </g>
 </svg>
