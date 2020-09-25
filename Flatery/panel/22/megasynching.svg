@@ -1,0 +1,17 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" viewBox="0 0 22 22" version="1.1">
+<g id="surface1">
+<defs>
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text { color:#424242; } .ColorScheme-Highlight { color:#eeeeee; }
+  </style>
+ </defs>
+<path style="fill:currentColor;fill-opacity:0.5" class="ColorScheme-Text" d="M 4 6 L 4 16 L 7 16 L 7 10 L 11 14 L 15 10 L 15 12 L 18 12 L 18 6 L 15 6 L 11 10 L 7 6 Z M 4 6 "/>
+<defs>
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text { color:#424242; } .ColorScheme-Highlight { color:#eeeeee; }
+  </style>
+ </defs>
+<path style="fill:currentColor" class="ColorScheme-Text" d="M 16.75 13.335938 C 15.699219 12.726562 14.398438 12.964844 13.628906 13.84375 L 14.53125 14.363281 C 15 13.960938 15.683594 13.875 16.25 14.199219 C 16.816406 14.527344 17.082031 15.164062 16.96875 15.769531 L 17.871094 16.292969 C 18.242188 15.1875 17.800781 13.941406 16.75 13.335938 Z M 13.128906 14.707031 C 12.757812 15.8125 13.199219 17.058594 14.25 17.664062 C 15.300781 18.273438 16.601562 18.03125 17.371094 17.15625 L 16.46875 16.636719 C 16 17.039062 15.316406 17.125 14.75 16.800781 C 14.183594 16.472656 13.917969 15.835938 14.03125 15.230469 Z M 13.128906 14.707031 "/>
+</g>
+</svg>
