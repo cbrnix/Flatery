@@ -12,12 +12,10 @@ If you want them to be visible only to your user, move them to `~/.icons` (GTK-b
 
 Similarily move the `Flatery-wallpapers` folder to `/usr/share/wallpapers` or `~/.local/share/wallpapers`.
 
- 
+
 ## Support
-If you want support me - 
+Even a small donation boosts motivation :) 
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/cbrnix)
-
-[![Yandex](https://i.imgur.com/tpgGWVH.png)](https://money.yandex.ru/to/41001796418567)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/cbrnix)  OR   [![Yandex](https://i.imgur.com/tpgGWVH.png)](https://money.yandex.ru/to/41001796418567)
 
 
