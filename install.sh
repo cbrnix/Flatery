@@ -7,6 +7,8 @@ iconsVariants=$(ls | grep "Flatery-" | grep -v "wallpapers" | cut -f 2- -d "-")
 installWallpapers=false
 wallpapersDir=$HOME/.local/share/backgrounds
 
+badVariant=false
+
 function show_valid_variants {
 	echo "Valid variants are : $iconsVariants" 
 }
@@ -76,13 +78,22 @@ while getopts ":hgwv:" opt; do
 	esac
 done
 
-# Check write permissions for install dir
-badVariant=false
-if [[ -w $iconsDir ]]; then
 
+# Check if any variant is selected
+if [[ -z $iconsVariants ]]; then
+	
+	echo "No icons will be installed."
+
+else
+
+	# Check write permissions
+	if [[ ! -w $iconsDir ]]; then
+		echo "Can't write to $iconsDir"
+		exit 2
+	fi
+
+	# Install icons variants
 	echo "Installing icons into $iconsDir"
-
-	# Apply icons variants
 	for variant in $iconsVariants; do
 		if [[ -d "Flatery-$variant" ]]; then 
 			echo "	Installing variant $variant"
@@ -94,39 +105,28 @@ if [[ -w $iconsDir ]]; then
 		fi
 	done
 	
-else 
-
-	# Error, can't write
-	echo "Can't write to $iconsDir"
-	exit 2
-
 fi
 
 
-# Install wallpapers
+# Check if wallpapers are selected for install
 if $installWallpapers; then
-	if [[ -w $wallpapersDir ]]; then
-		
-		echo "Installing wallpapers into $wallpapersDir"  
-
-		# Install wallpapers
-		rm -rf $wallpapersDir/Flatery-wallpapers
-		cp -r Flatery-wallpapers $wallpapersDir
-
-	else 
-
-		# Error, can't write
+	
+	# Check write permissions
+	if [[ ! -w $wallpapersDir ]]; then
 		echo "Can't write to $wallpapersDir"
 		exit 2	
-
 	fi
+	
+	# Install wallpapers
+	echo "Installing wallpapers into $wallpapersDir"  
+	rm -rf $wallpapersDir/Flatery-wallpapers
+	cp -r Flatery-wallpapers $wallpapersDir
+	
 fi
 
-# Exit
+# Exit with appropriate code
 if $badVariant; then
-	# Low severity error, bad variant
 	exit 1
 else
-	# Everything went good
 	exit 0
 fi
