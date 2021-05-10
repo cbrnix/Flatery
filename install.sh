@@ -11,9 +11,36 @@ function show_valid_variants {
 	echo "Valid variants are : $iconsVariants" 
 }
 
+function show_help {
+	cat << EOF
+Usage : ./install.sh [-hgw] [-v variant]
+Install the given variants of the icon theme, with or without wallpapers, locally or globally.
+Default behavior is all variants, locally, no wallpapers.
+Note that if a version of the to be installed variant exist in the install directory, it will first be removed.
+
+-h	Display this help
+-w	Install with wallpapers
+-g	Install globally (needs root privileges)
+-v	Install only the given variants, e.g. -v "Mint Orange"
+	Special values are "none" and "all".
+	If the option is absent, all variants are installed.
+	
+Exit status:
+ 0	if OK,
+ 1	if a selected variant does not exist (low severity, more of a warning),
+ 2	if write permissions to install directory are missing (more serious),
+ 3	if wrong arguments are given (e.g. -v without a value).
+EOF
+}
+
 # Parsing options
-while getopts "gwv:" opt; do
+while getopts ":hgwv:" opt; do
 	case ${opt} in
+		h )
+			# Display help and exit
+			show_help
+			exit 0
+			;;
 		g ) 
 			# Install globally
 			iconsDir=/usr/share/icons
@@ -21,21 +48,36 @@ while getopts "gwv:" opt; do
 			;;
 		v )
 			# Install only user selected variant(s)
-			iconsVariants="$OPTARG"
+			case "$OPTARG" in
+				all )
+					# Keep the full list
+					;;
+				none )
+					# Don't install any variant
+					iconsVariants=""
+					;;
+				* )
+					# All other cases, use specified
+					iconsVariants="$OPTARG"
+					;;
+			esac
 			;;
 		w )
 			# Install wallpaper(s)
 			installWallpapers=true
 			;;
-		: )
-			# Given variant does not exist
-			show_valid_variants
-			exit 1
+		? )
+			# Wrong usage
+			echo "Invalid option -$OPTARG"
+			echo
+			show_help
+			exit 3
 			;;
 	esac
 done
 
 # Check write permissions for install dir
+badVariant=false
 if [[ -w $iconsDir ]]; then
 
 	echo "Installing icons into $iconsDir"
@@ -47,7 +89,8 @@ if [[ -w $iconsDir ]]; then
 			rm -rf $iconsDir/$variant	
 			cp -r Flatery-$variant $iconsDir
 		else
-			echo "Variant $variant does not exist"
+			echo "	Skipping variant $variant (doesn't exist)"
+			badVariant=true
 		fi
 	done
 	
@@ -55,7 +98,7 @@ else
 
 	# Error, can't write
 	echo "Can't write to $iconsDir"
-	exit 1	
+	exit 2
 
 fi
 
@@ -74,10 +117,16 @@ if $installWallpapers; then
 
 		# Error, can't write
 		echo "Can't write to $wallpapersDir"
-		exit 1	
+		exit 2	
 
 	fi
 fi
 
-# If everything went good, exit with code 0
-exit 0
+# Exit
+if $badVariant; then
+	# Low severity error, bad variant
+	exit 1
+else
+	# Everything went good
+	exit 0
+fi
