@@ -86,10 +86,17 @@ if [[ -z $iconsVariants ]]; then
 
 else
 
-	# Check write permissions
-	if [[ ! -w $iconsDir ]]; then
-		echo "Can't write to $iconsDir"
-		exit 2
+	# Automatically create directory if the iconsDir does not exists. only if installing it non-globally
+	# But check if we're installing it globally!
+	if [[ "$iconsDir" == "/usr/share/icons" ]]; then
+		# Check write permissions
+		if [[ ! -w $iconsDir ]]; then
+			echo "Can't write to $iconsDir"
+			exit 2
+		fi
+	else
+		# Automatically create iconsDir directory (aka. ~/.local/share/icons) if not exists
+		mkdir -p "$iconsDir"
 	fi
 
 	# Install icons variants
