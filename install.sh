@@ -118,10 +118,16 @@ fi
 # Check if wallpapers are selected for install
 if $installWallpapers; then
 	
-	# Check write permissions
-	if [[ ! -w $wallpapersDir ]]; then
-		echo "Can't write to $wallpapersDir"
-		exit 2	
+	# Also check for wallpapers directory. see if user home directory wallpapersDir exists
+	if [[ "$wallpapersDir" == "/usr/share/backgrounds" ]]; then
+		# Check write permissions
+		if [[ ! -w $wallpapersDir ]]; then
+			echo "Can't write to $wallpapersDir"
+			exit 2	
+		fi
+	else
+		# Automatically create wallpapersDir directory (aka. ~/.local/share/backgrounds) if not exists
+		mkdir -p "$wallpapersDir"
 	fi
 	
 	# Install wallpapers
