@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 6.35 6.3500001"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="g60482"
+     transform="scale(0.396875)">
+    <rect
+       style="fill:#e55d50;fill-opacity:1"
+       width="16"
+       height="16"
+       x="-16"
+       y="-16"
+       rx="0.80000001"
+       ry="0.80000001"
+       transform="matrix(0,-1,-1,0,0,0)"
+       id="rect60434" />
+    <rect
+       style="opacity:0.2"
+       width="5"
+       height="7"
+       x="9"
+       y="1"
+       id="rect60436" />
+    <path
+       style="opacity:0.2"
+       d="M 16,15.2 V 8 H 0 v 7.2 C 0,15.6432 0.3568,16 0.8,16 h 14.4 c 0.4432,0 0.8,-0.3568 0.8,-0.8 z"
+       id="path60438" />
+    <circle
+       style="fill:#fdeae8;fill-opacity:1"
+       cx="4"
+       cy="4"
+       r="2"
+       id="circle60440" />
+    <rect
+       style="fill:#fda82a;fill-opacity:1"
+       height="1"
+       x="9"
+       y="1"
+       id="rect60442"
+       width="2.0004969" />
+    <rect
+       style="fill:#fda82a;fill-opacity:1"
+       width="3"
+       height="1"
+       x="9"
+       y="3"
+       id="rect60444" />
+    <rect
+       style="fill:#ff6e42;fill-opacity:1"
+       width="1.5"
+       height="1"
+       x="9"
+       y="5"
+       id="rect60446" />
+    <rect
+       style="fill:#ff6e42;fill-opacity:1"
+       width="4"
+       height="1"
+       x="9"
+       y="7"
+       id="rect60448" />
+    <circle
+       style="fill:#fdeae8;fill-opacity:1"
+       cx="4"
+       cy="12"
+       r="2"
+       id="circle60450" />
+    <rect
+       style="opacity:0.2"
+       width="5"
+       height="7"
+       x="9"
+       y="8"
+       id="rect60452" />
+    <rect
+       style="fill:#fda82a;fill-opacity:1"
+       width="3"
+       height="1"
+       x="9"
+       y="10"
+       id="rect60456" />
+    <rect
+       style="fill:#ff6e42;fill-opacity:1"
+       width="1.5"
+       height="1"
+       x="9"
+       y="12"
+       id="rect60458" />
+    <rect
+       style="fill:#ff6e42;fill-opacity:1"
+       width="4"
+       height="1"
+       x="9"
+       y="14"
+       id="rect60460" />
+  </g>
+</svg>
