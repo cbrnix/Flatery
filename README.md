@@ -28,6 +28,6 @@ Similarily move the `Flatery-wallpapers` folder to `/usr/share/wallpapers` or `~
 ## Support
 Even a small donation boosts motivation :) 
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/cbrnix)  OR   [![Юmoney](https://i.imgur.com/KrkyEbB.png)](https://yoomoney.ru/to/41001796418567)
+[![Юmoney](https://i.imgur.com/KrkyEbB.png)](https://yoomoney.ru/to/41001796418567)
 
 
